@@ -1,0 +1,217 @@
+.app.dark{
+    // background-color: #2b2b2b;
+    color: #9c9c9c;
+    background-color: #130029;
+
+
+    .chartGrid{
+        stroke: rgba(228, 228, 228,0.219);
+    }
+
+    .table{
+        background-color: transparent;
+
+        .tableCell{
+            color: gray ;
+            border-color: #c489ff20;
+        }
+    }
+
+    .datatable{
+
+        .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+            color: #b919d2;
+            }
+        
+        .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root,.css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root {
+            color:#b919d294;
+        }
+        .css-17jjc08-MuiDataGrid-footerContainer{
+            border-top:1px solid #e0e0e042 ;
+        }
+        .css-z8fhq1-MuiDataGrid-columnHeaders,.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-cell{
+            border-bottom: 1px solid #e0e0e027;
+        }
+        .css-rtrcn9-MuiTablePagination-root{
+            color: gray;
+        }
+        
+        .datagrid{
+            
+           color: gray; 
+           border: none; 
+           background-color: transparent;
+           border-color: #c489ff20;
+
+           .MuiDataGrid-cell{
+            // border-bottom: #c489ff;
+           }
+
+           .viewButton,
+           .deleteButton,
+           .cellWithStatus{
+            // color: gray;
+            // border: none;
+           }
+
+           .viewButton{
+            text-shadow: 0 0 2px blue;
+            box-shadow: 0 0 4px blue;
+           }
+
+           .deleteButton{
+            text-shadow: 0 0 2px red;
+            box-shadow: 0 0 4px red;
+           }
+        }
+    }
+
+    input{
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .navbar{
+        color: #fff;
+        background-color: #53396e2e;
+        // box-shadow: 6px -5px 9px 0px #c489ff;
+        border: none;
+
+        .search{
+            border-color: #c489ff2b;
+            input{
+                color: #fff;
+                caret-color: white;
+            }
+        }
+    }
+
+    .sidebar{
+        color: #dbdbdb;
+        background-color: #53396e2e;
+        // box-shadow: 6px -5px 9px 0px #c489ff;
+        border: none;
+
+        .top{
+            .logo{
+                // animation: neonAnim 2s alternate-reverse infinite;
+                // color: #F90DF9;
+                color: #dbdbdb;
+                text-shadow: -2px -1px 20px rgb(186 0 186 / 70%), 1px -1px 0px rgb(202 73 202 / 70%);
+            }
+        }
+
+        hr{
+            border-color: #c489ff1e;
+        }
+
+        ul{
+            li{
+                
+                &:hover{
+                    box-shadow: inset 0px 0px 6px 0px #c489ff;
+                    background-color: transparent;
+                    border-radius: 5px;
+                }
+
+                span{
+                    color: #dbdbdb ;
+                }
+                .icon{
+                    color: #dbdbdb;
+                }
+            }
+        }
+    }
+
+    .homeContainer{
+        background-color: #130029;
+
+        .widget{
+            box-shadow: inset 0px 0px 20px 0px #c489ff;
+            background-color: transparent;
+        }
+        .featured{
+            box-shadow: inset 0px 0px 20px 0px #c489ff;
+            background-color: transparent;
+            border-radius: 10px;
+            // box-shadow: none;
+        }
+        .chart{
+            box-shadow: inset 0px 0px 20px 0px #c489ff;
+            background-color: transparent;
+            border-radius: 10px;
+            // box-shadow: none;
+        }
+        .listContainer{
+            box-shadow: inset 0px 0px 20px 0px #c489ff;
+            background-color: transparent;
+            border-radius: 10px;
+        }
+    }
+
+    .singleContainer{
+        background-color: #130029;
+
+        .top{
+            .left, .chart{
+               
+                box-shadow: inset 0px 0px 20px 0px #c489ff;
+                background-color: transparent;
+                border-radius: 10px;
+
+                .eidtButton{
+                    font-size: 16px;
+                }
+                .item{
+                    .details{
+                        .itemTitle{
+                            color: #d6d4d4;
+                        }
+                        .detailItem{
+                            .itemKey{
+                                color: #a5a4a4;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .right{
+            background-color: transparent;
+        }
+        .bottom{
+            box-shadow: inset 0px 0px 20px 0px #c489ff;
+            background-color: transparent;
+            border-radius: 10px;
+        }
+    }
+
+    .listContainer{
+        background-color: #130029;
+    }
+
+   
+
+
+}
+
+
+
+
+
+@keyframes neonAnim {
+    from {
+        text-shadow:
+          0 0 40px rgba(249, 13, 249, .7),
+          0 0 70px rgba(249, 13, 249, .7),
+          0 0 130px rgba(249, 13, 249, .7);
+      }
+      to {
+        text-shadow:
+          0 0 35px rgba(249, 13, 249, .7),
+          0 0 50px rgba(249, 13, 249, .7),
+          0 0 90px rgba(249, 13, 249, .7);
+      }
+}

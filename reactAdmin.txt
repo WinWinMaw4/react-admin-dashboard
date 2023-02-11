@@ -1,0 +1,23 @@
+npx create-react-app react-admindashboard
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;1000&display=swap" rel="stylesheet">
+font-family: 'Nunito', sans-serif;
+yarn add sass
+npm install node-sass@4.14.1
+yarn add react-router-dom
+https://reactrouter.com/en/main
+
+https://mui.com/material-ui/components/material-icons
+yarn add @mui/icons-material
+
+https://www.pexels.com/photo/woman-in-collared-shirt-774909/
+
+https://github.com/kevinsqi/react-circular-progressbar
+yarn add react-circular-progressbar
+
+http://uber.github.io/react-vis/examples/showcases/axes
+https://nivo.rocks/line/
+https://recharts.org/en-US/
+https://react-chartjs-2.js.org/
+yarn add recharts
+
+yarn add @mui/x-data-grid
